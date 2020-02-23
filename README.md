@@ -101,5 +101,5 @@ $myService->setFeedback(new ChainedFeedback(
 
 ## Other feedback packages
 ### SymfonyStyleFeedback
-If you use Symfony CLI, check out [LinkuNijmegen/SymfonyStyleFeedback](https://github.com/linkunijmegen/SymfonyStyleFeedback)
+If you use Symfony CLI, check out [Linku/SymfonyStyleFeedback](https://github.com/linkunijmegen/SymfonyStyleFeedback)
 for integration with the Symfony Style component.
