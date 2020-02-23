@@ -1,0 +1,23 @@
+{
+    "name": "linku/feedback",
+    "description": "Abstract layer between services and output in PHP",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.0",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Linku\\Feedback\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Linku\\Feedback\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
