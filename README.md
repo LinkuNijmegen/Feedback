@@ -1,5 +1,9 @@
 # Linku/Feedback
 
+[![Build Status](https://img.shields.io/travis/linkunijmegen/feedback/master)](https://travis-ci.org/LinkuNijmegen/Feedback)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/linku/feedback.svg)](https://packagist.org/packages/linku/feedback)
+
 Feedback is an io abstraction that lets you decouple functional code and
 business logic from (CLI) I/O.
 
