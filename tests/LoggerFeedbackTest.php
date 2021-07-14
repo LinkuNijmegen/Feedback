@@ -5,12 +5,15 @@ namespace Linku\Feedback\Tests;
 
 use Linku\Feedback\LoggerFeedback;
 use PHPUnit\Framework\TestCase;
+use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 
 final class LoggerFeedbackTest extends TestCase
 {
+    use ProphecyTrait;
+
     /**
      * @var ObjectProphecy|LoggerInterface
      */
