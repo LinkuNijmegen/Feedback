@@ -6,11 +6,14 @@ namespace Linku\Feedback\Tests;
 use Linku\Feedback\ChainedFeedback;
 use Linku\Feedback\Feedback;
 use PHPUnit\Framework\TestCase;
+use Prophecy\PhpUnit\ProphecyTrait;
 use Prophecy\Prophecy\ObjectProphecy;
 use RuntimeException;
 
 class ChainedFeedbackTest extends TestCase
 {
+    use ProphecyTrait;
+
     /**
      * @var Feedback|ObjectProphecy
      */
